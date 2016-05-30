@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6142813B-8F82-486C-F37E-49A2A7BD1D84" name="PREGUNTA">
+<createdBy>7FPROG08</createdBy>
+<createdTime>2016-05-10 19:10:58 UTC</createdTime>
+<generatorID>7355CC6F-EDDA-C791-9DA5-6908F5F81D57</generatorID>
+<ownerDesignName>DiseñoProyecto</ownerDesignName>
+<abbreviation>PRE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRE" id="2E9FDEEA-9AE7-8C01-FE20-B317A7E49925">
+<createdBy>7FPROG08</createdBy>
+<createdTime>2016-05-10 19:10:58 UTC</createdTime>
+<generatorID>A506CDD3-D889-054B-F36F-B742064816B8</generatorID>
+<ownerDesignName>DiseñoProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXTO" id="B1B9E12B-03BB-F9ED-CFE8-4334D38A4095">
+<createdBy>7FPROG08</createdBy>
+<createdTime>2016-05-10 19:10:58 UTC</createdTime>
+<generatorID>843F3422-1118-06CD-70CC-7B6E75BAB60C</generatorID>
+<ownerDesignName>DiseñoProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_ID_CAT" id="71386D66-105F-350A-CC2D-FB9E5BE6D560">
+<createdBy>7FPROG08</createdBy>
+<createdTime>2016-05-10 19:10:58 UTC</createdTime>
+<generatorID>C2F4A71B-3AAE-B11B-627E-331A0FE1D67A</generatorID>
+<ownerDesignName>DiseñoProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D219B177-729C-CD29-C179-3EC87B8C427C" referredColumn="06DC747D-2A3D-9BDF-E678-EAC5370F90D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A13CC35B-F072-0DC3-E706-D621D65BCD74" name="PREGUNTA_PK">
+<createdBy>7FPROG08</createdBy>
+<createdTime>2016-05-10 19:10:58 UTC</createdTime>
+<generatorID>8922F309-44AD-E1F0-E1E8-7989DECCD2BD</generatorID>
+<ownerDesignName>DiseñoProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E9FDEEA-9AE7-8C01-FE20-B317A7E49925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22BC5518-5025-029D-E1CD-70F9ED2F7D61" name="PREGUNTA_CATEGORIA_FK">
+<createdBy>7FPROG08</createdBy>
+<createdTime>2016-05-10 19:10:58 UTC</createdTime>
+<generatorID>FA738FF6-981D-4C35-6356-8954549675DC</generatorID>
+<ownerDesignName>DiseñoProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71386D66-105F-350A-CC2D-FB9E5BE6D560"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

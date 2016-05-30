@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="CDAC8AEB-6FB5-BB6D-F65E-5F72061074D3">
+<createdBy>7FPROG08</createdBy>
+<modifiedBy>7FPROG08</modifiedBy>
+<createdTime>2016-05-10 19:01:47 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="02D0CB28-B6F2-583A-22CF-BCA3EA414969" otype="Entity" vid="BE63DE04-5F72-9288-B569-E35E508E1D0C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="636" y="155" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7355CC6F-EDDA-C791-9DA5-6908F5F81D57" otype="Entity" vid="D2BAAD2A-0519-02C9-F5EC-7D2A9D53CE6F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="318" y="153" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E3ADB8A7-ACD3-8DF4-F848-F7DC5E9E5E6B" otype="Entity" vid="C0D2CA90-3417-EFF9-F58F-6A71A98C5563">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="39" y="154" width="173" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="06B52476-9F85-D843-25C6-2EBF64021BB3" otype="Relation" vid_source="D2BAAD2A-0519-02C9-F5EC-7D2A9D53CE6F" vid_target="BE63DE04-5F72-9288-B569-E35E508E1D0C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="488" y="209"/>
+<point x="636" y="209"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FA738FF6-981D-4C35-6356-8954549675DC" otype="Relation" vid_source="C0D2CA90-3417-EFF9-F58F-6A71A98C5563" vid_target="D2BAAD2A-0519-02C9-F5EC-7D2A9D53CE6F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="212" y="208"/>
+<point x="318" y="208"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
